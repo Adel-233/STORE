@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+}
+
+/*start header*/
+
+nav {
+  width: 100%;
+  height: 60px;
+  background-color: #801515;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav a {
+  display: inline-block;
+  padding: 21px;
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: darkmagenta;
+  color: black;
+}
+
+.nav-logo {
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+.menu {
+  width: 30%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.sing-in {
+  width: 15%;
+  text-transform: capitalize;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/*end header*/
+
+/*start wel*/
+
+#wel {
+  /* width: 100%; */
+  height: 100vh;
+  padding: 20px;
+  background-color: darkmagenta;
+  background-image: url(../img/products.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wel-h{
+    text-transform: uppercase;
+}
+
+.wel-btn{
+    font-size: 15px;
+    background-color: #801515;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    color: white;
+}
+
+/*end wel*/
+
+
+/*start products*/
+
+.products header{
+    text-align: center;
+}
+
+.products header h2{
+    text-transform: uppercase;
+}
+
+.products header p {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    /* margin: 5px; */
+}
+
+.list div {
+    margin: 5px;
+}
+
+.pro{
+    width: 100%;
+}
+
+.card{
+    border: 1px solid black;
+}
+/*end products*/
